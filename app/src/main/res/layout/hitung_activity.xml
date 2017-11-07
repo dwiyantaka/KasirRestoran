@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    tools:context="com.example.wildanifqie.kasirrestoran.MainActivity">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Total Harga"
+        android:layout_marginTop="10dp"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:textColor="@color/colorPrimary"/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:orientation="horizontal">
+        <LinearLayout
+            android:id="@+id/linearLayout1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="0dp"
+            android:orientation="vertical"
+            android:layout_marginStart="0dp">
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="15dp"
+                android:text="Gulai Tempe"
+                android:textAppearance="@android:style/TextAppearance"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="15dp"
+                android:text="Tempe Bakar Kalasan"
+                android:textAppearance="@android:style/TextAppearance"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="15dp"
+                android:text="Iga Bakar Sambal Tempe"
+                android:textAppearance="@android:style/TextAppearance"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="15dp"
+                android:text="Mendoan"
+                android:textAppearance="@android:style/TextAppearance"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="15dp"
+                android:text="Spaghetti Tempe"
+                android:textAppearance="@android:style/TextAppearance"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="15dp"
+                android:text="Rujak Tempe Hongkong"
+                android:textAppearance="@android:style/TextAppearance"
+                android:textSize="18sp"
+                tools:ignore="HardcodedText" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="15dp"
+                android:text="Teh Manis"
+                android:textAppearance="@android:style/TextAppearance"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="15dp"
+                android:text="Air Mineral"
+                android:textAppearance="@android:style/TextAppearance"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_marginTop="10dp"
+                android:text="Jumlah Total"
+                android:gravity="end"
+                android:layout_gravity="end"
+                android:textAlignment="textEnd"
+                android:textAppearance="@android:style/TextAppearance"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/linearLayout2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp">
+
+            <TextView
+                android:id="@+id/tot_hrg1"
+                android:layout_width="90dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="5dp"
+                android:textSize="18sp"
+                android:gravity="center"
+                android:textAlignment="viewStart"/>
+            <TextView
+                android:id="@+id/tot_hrg2"
+                android:layout_width="90dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="5dp"
+                android:textSize="18sp"
+                android:gravity="center"
+                android:textAlignment="viewStart"/>
+            <TextView
+                android:id="@+id/tot_hrg3"
+                android:layout_width="90dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="5dp"
+                android:textSize="18sp"
+                android:gravity="center"
+                android:textAlignment="viewStart"/>
+            <TextView
+                android:id="@+id/tot_hrg4"
+                android:layout_width="90dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="5dp"
+                android:textSize="18sp"
+                android:gravity="center"
+                android:textAlignment="viewStart"/>
+            <TextView
+                android:id="@+id/tot_hrg5"
+                android:layout_width="90dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="5dp"
+                android:textSize="18sp"
+                android:gravity="center"
+                android:textAlignment="viewStart"/>
+            <TextView
+                android:id="@+id/tot_hrg6"
+                android:layout_width="90dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="5dp"
+                android:textSize="18sp"
+                android:gravity="center"
+                android:textAlignment="viewStart"/>
+            <TextView
+                android:id="@+id/tot_hrg7"
+                android:layout_width="90dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="5dp"
+                android:textSize="18sp"
+                android:gravity="center"
+                android:textAlignment="viewStart"/>
+
+            <TextView
+                android:id="@+id/tot_hrg8"
+                android:layout_width="90dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="5dp"
+                android:textSize="18sp"
+                android:gravity="center"
+                android:textAlignment="viewStart"/>
+
+            <TextView
+                android:id="@+id/jml_tot"
+                android:layout_width="90dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="0dp"
+                android:textSize="18sp"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textAlignment="viewStart"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
+
